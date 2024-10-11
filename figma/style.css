@@ -1,0 +1,48 @@
+@font-face {
+    font-family: yekan;
+    src: url(../figma/font/BASKVILL.TTF);
+}
+* {
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../figma/pic/41.gif);
+  font-family: yekan;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(158, 158, 224);
+  align-items: center;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+ul li {
+  color: white;
+  list-style-type: none;
+}
+ul li:first-child {
+  font-size: 15px;
+  font-weight: bold;
+}
+button {
+  height: 51px;
+  width: 176px;
+  background-color: #6f4efd;
+  color: white;
+  border-radius: 5px;
+  font-family: yekan;
+  border: none;
+}
